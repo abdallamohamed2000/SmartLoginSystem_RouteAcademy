@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Amatic+SC:wght@700&family=Montserrat:wght@400;700;800;900&family=PT+Sans+Caption&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Amatic+SC:wght@700&family=Bree+Serif&family=Montserrat:wght@400;700;800;900&family=PT+Sans+Caption&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Amatic+SC:wght@700&family=Bree+Serif&family=Montserrat:wght@400;700;800;900&family=PT+Sans+Caption&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SignUp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="SignUp/css/all.min.css">
+    <link rel="stylesheet" href="SignUp/css/signup.css">
+    <link rel="stylesheet" href="SignUp/css/media.css">
+</head>
+
+<body>
+
+
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+    <section class="min-vh-100 home p-5">
+
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-7 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center flex-column gap-3 m-auto box">
+                        <h1>Smart Login System</h1>
+                        <input id="nameInput" type="text" class="form-control bg-transparent" placeholder="Enter your name">
+                        <input id="emailInput" type="email" class="form-control bg-transparent" placeholder="Enter your email">
+                        <input id="passwordInput" type="password" class="form-control bg-transparent" placeholder="Enter your password">
+                        <p id="alertmsg" class="alertSuccess p-0 m-0 d-none"></p>
+                        <button id="signUpBtn" class="w-100 btn btn-outline-info  shadow-none">Sign up</button>
+                        <p class="text-white">You have an account? <a class="text-white" href="SignIn/signin.html">Sign in</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="cardValidation" class="outer-card position-absolute w-100 h-100  top-0 start-0 d-flex justify-content-center align-items-center d-none">
+            <div class="bg-dark p-4 rounded-2 shadow-lg card">
+                <div class="w-100 d-flex justify-content-between align-items-center mb-4">
+                    <div class="circles d-flex gap-2">
+                        <i class="fa-solid fa-circle "></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </div>
+                    <button id="removeCard" class="btn border-0"><i class="fa-solid fa-xmark close fs-3"></i></button>
+                </div>
+                <p class="validHeader">
+                    UserName, Email or Password is not valid, Please follow the rules below :
+                </p>
+                <div class="rules">
+                    <p>
+                        <i class="fa-regular fa-circle-right p-2"></i> UserName must contain at least 3 char
+                    </p>
+                    <p>
+                        <i class="fa-regular fa-circle-right p-2"></i>Email must be a valid one
+                    </p>
+                    <p>
+                        <i class="fa-regular fa-circle-right p-2"></i>pass(min-length 8 char, max-length 20 char)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="signUp/js/jquery-3.7.1.min.js"></script>
+    <script src="SignUp/js/bootstrap.bundle.min.js"></script>
+    <script src="SignUp/js/signUp.js"></script>
+</body>
+
+</html>

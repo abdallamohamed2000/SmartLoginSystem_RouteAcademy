@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+    <section class="min-vh-100 home p-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-7 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center flex-column gap-3 m-auto box">
+                        <h1>Smart Login System</h1>
+                        <input id="emailInput" type="email" class="form-control bg-transparent" placeholder="Enter your email">
+                        <input id="passwordInput" type="password" class="form-control bg-transparent" placeholder="Enter your password">
+                        <p id="alertmsg" class="alerttmsg p-0 m-0 d-none"></p>
+                        <button id="signInBtn" class="w-100 btn btn-outline-info  shadow-none mt-2">Sign in</button>
+                        <p class="text-white acc">Don’t have an account? <a class="text-white" href="../signup.html">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signIn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 27px;
+    }
+    .box {
+        padding: 17px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 24px;
+    }
+    .box {
+        padding: 15px 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 19px;
+    }
+    .box {
+        padding: 13px 11px;
+    }
+    .cont {
+        margin-top: 0 !important;
+    }
+}

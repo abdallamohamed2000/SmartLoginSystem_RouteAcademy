@@ -1,0 +1,50 @@
+@media (max-width: 575.98px) {
+    .box {
+        padding: 27px 15px;
+    }
+    .box h1 {
+        font-size: 22px !important;
+    }
+    .box p {
+        font-size: 16px;
+    }
+    .p-5 {
+        padding: 1.5rem!important;
+    }
+    .card {
+        max-width: 385px;
+    }
+    .validHeader {
+        font-size: 16px;
+    }
+    .rules p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .box h1 {
+        font-size: 20px !important;
+    }
+    .p-5 {
+        padding: 1rem!important;
+    }
+    .card {
+        max-width: 365px;
+    }
+    .rules p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .box p {
+        font-size: 16px;
+    }
+    .card {
+        max-width: 320px;
+    }
+    .rules p {
+        font-size: 10px;
+    }
+}

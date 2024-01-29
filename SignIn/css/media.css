@@ -1,0 +1,29 @@
+@media (max-width: 575.98px) {
+    .box {
+        padding: 27px 15px;
+    }
+    .box h1 {
+        font-size: 22px !important;
+    }
+    p {
+        font-size: 16px;
+    }
+    .p-5 {
+        padding: 1.5rem!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .box h1 {
+        font-size: 20px !important;
+    }
+    .p-5 {
+        padding: 1rem!important;
+    }
+}
+
+@media (max-width: 360px) {
+    .box p {
+        font-size: 16px;
+    }
+}
